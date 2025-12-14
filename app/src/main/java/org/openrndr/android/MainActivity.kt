@@ -4,8 +4,8 @@ import android.opengl.GLSurfaceView
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.enableEdgeToEdge
+import org.openrndr.android.application.createSurfaceView
 import org.openrndr.androidApplication
-import org.openrndr.internal.android.createSurfaceView
 
 class MainActivity : ComponentActivity() {
 

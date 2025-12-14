@@ -46,8 +46,8 @@ android {
 dependencies {
 
     implementation(openrndr("application"))
+    implementation(openrndr("android"))
     implementation(openrndr("color"))
-    implementation(openrndr("gles-android"))
 
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
