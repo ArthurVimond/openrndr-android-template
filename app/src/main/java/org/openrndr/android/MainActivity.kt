@@ -5,7 +5,6 @@ import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.enableEdgeToEdge
 import org.openrndr.android.application.createSurfaceView
-import org.openrndr.androidApplication
 
 class MainActivity : ComponentActivity() {
 
@@ -15,13 +14,7 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
 
-        androidApplication {
-            program {
-                extend {
-                    // Your drawing code...
-                }
-            }
-        }
+        templateApp
 
         surfaceView = createSurfaceView(this)
         setContentView(surfaceView)
