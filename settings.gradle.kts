@@ -24,8 +24,6 @@ dependencyResolutionManagement {
 rootProject.name = "openrndr-android-template"
 
 include(":app")
+include(":demo")
 
-//include(":openrndr-application")
-//include(":openrndr-gles-android")
-//project(":openrndr-application").projectDir = File(settingsDir, "../openrndr/openrndr-application")
-//project(":openrndr-gles-android").projectDir = File(settingsDir, "../openrndr/openrndr-gles-android")
+enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")
