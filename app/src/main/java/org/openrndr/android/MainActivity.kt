@@ -4,7 +4,6 @@ import android.opengl.GLSurfaceView
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.enableEdgeToEdge
-import org.openrndr.android.application.createSurfaceView
 
 class MainActivity : ComponentActivity() {
 
@@ -14,9 +13,7 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
 
-        templateApp
-
-        surfaceView = createSurfaceView(this)
+        surfaceView = templateApp(this)
         setContentView(surfaceView)
     }
 
