@@ -1,11 +1,12 @@
 package org.openrndr.android.demo
 
+import android.content.Context
 import org.openrndr.androidApplication
 import org.openrndr.color.ColorRGBa
 import org.openrndr.math.Vector2
 import kotlin.math.sin
 
-val demoCircle = androidApplication {
+fun demoCircle(context: Context) = androidApplication(context) {
     program {
         extend {
             drawer.stroke = ColorRGBa.PINK
