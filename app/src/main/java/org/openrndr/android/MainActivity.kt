@@ -16,26 +16,4 @@ class MainActivity : ComponentActivity() {
         surfaceView = templateApp(this)
         setContentView(surfaceView)
     }
-
-    override fun onPause() {
-        super.onPause()
-        surfaceView.onPause()
-    }
-
-    override fun onResume() {
-        super.onResume()
-        surfaceView.onResume()
-    }
-
-    override fun onStart() {
-        super.onStart()
-    }
-
-    override fun onStop() {
-        super.onStop()
-    }
-
-    override fun onDestroy() {
-        super.onDestroy()
-    }
 }
