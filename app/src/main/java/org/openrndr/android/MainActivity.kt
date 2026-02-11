@@ -5,6 +5,7 @@ import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.enableEdgeToEdge
 import org.openrndr.android.demo.demoMultitouch
+import org.openrndr.android.demo.demoAccelerometer
 
 class MainActivity : ComponentActivity() {
 
@@ -16,6 +17,7 @@ class MainActivity : ComponentActivity() {
 
         surfaceView = templateApp(this)
 //        surfaceView = demoMultitouch(this)
+//        surfaceView = demoAccelerometer(this)
 
         setContentView(surfaceView)
     }
