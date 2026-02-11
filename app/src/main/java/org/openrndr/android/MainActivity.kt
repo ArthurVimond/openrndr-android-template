@@ -1,5 +1,7 @@
 package org.openrndr.android
 
+import android.annotation.SuppressLint
+import android.content.pm.ActivityInfo
 import android.opengl.GLSurfaceView
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -11,9 +13,13 @@ class MainActivity : ComponentActivity() {
 
     private lateinit var surfaceView: GLSurfaceView
 
+    @SuppressLint("SourceLockedOrientationActivity")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
+
+        requestedOrientation = ActivityInfo.SCREEN_ORIENTATION_PORTRAIT // Lock to portrait
+//        requestedOrientation = ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE // Lock to landscape
 
         surfaceView = templateApp(this)
 //        surfaceView = demoMultitouch(this)
