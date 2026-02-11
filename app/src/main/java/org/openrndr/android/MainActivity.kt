@@ -17,6 +17,7 @@ class MainActivity : ComponentActivity() {
 
         surfaceView = templateApp(this)
 //        surfaceView = demoMultitouch(this)
+//        surfaceView = demoGyroscope(this)
 //        surfaceView = demoAccelerometer(this)
 
         setContentView(surfaceView)
