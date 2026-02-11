@@ -6,8 +6,9 @@ import android.opengl.GLSurfaceView
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.enableEdgeToEdge
-import org.openrndr.android.demo.demoMultitouch
 import org.openrndr.android.demo.demoAccelerometer
+import org.openrndr.android.demo.demoGyroscope
+import org.openrndr.android.demo.demoMultitouch
 
 class MainActivity : ComponentActivity() {
 
