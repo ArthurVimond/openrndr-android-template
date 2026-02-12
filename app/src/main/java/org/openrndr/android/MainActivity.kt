@@ -8,6 +8,7 @@ import androidx.activity.ComponentActivity
 import androidx.activity.enableEdgeToEdge
 import org.openrndr.android.demo.demoAccelerometer
 import org.openrndr.android.demo.demoGyroscope
+import org.openrndr.android.demo.demoLight
 import org.openrndr.android.demo.demoMultitouch
 
 class MainActivity : ComponentActivity() {
@@ -26,6 +27,7 @@ class MainActivity : ComponentActivity() {
 //        surfaceView = demoMultitouch(this)
 //        surfaceView = demoGyroscope(this)
 //        surfaceView = demoAccelerometer(this)
+//        surfaceView = demoLight(this)
 
         setContentView(surfaceView)
     }
