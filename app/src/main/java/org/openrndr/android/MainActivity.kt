@@ -10,6 +10,7 @@ import org.openrndr.android.demo.demoAccelerometer
 import org.openrndr.android.demo.demoGyroscope
 import org.openrndr.android.demo.demoLight
 import org.openrndr.android.demo.demoMultitouch
+import org.openrndr.android.demo.demoText
 
 class MainActivity : ComponentActivity() {
 
@@ -27,6 +28,7 @@ class MainActivity : ComponentActivity() {
 //        surfaceView = demoMultitouch(this)
 //        surfaceView = demoGyroscope(this)
 //        surfaceView = demoAccelerometer(this)
+//        surfaceView = demoText(this)
 //        surfaceView = demoLight(this)
 
         setContentView(surfaceView)
